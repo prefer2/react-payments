@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-payments/static/css/main.2bc010e3.css",
-    "main.js": "/react-payments/static/js/main.f87e903e.js",
+    "main.js": "/react-payments/static/js/main.be4bf21b.js",
     "static/media/questionMark.svg": "/react-payments/static/media/questionMark.92f8ea8ef979cf774b08000b6dea5e59.svg",
     "index.html": "/react-payments/index.html",
     "static/media/arrow.svg": "/react-payments/static/media/arrow.750d95a90cd3457c271dc052839b1d51.svg",
     "main.2bc010e3.css.map": "/react-payments/static/css/main.2bc010e3.css.map",
-    "main.f87e903e.js.map": "/react-payments/static/js/main.f87e903e.js.map"
+    "main.be4bf21b.js.map": "/react-payments/static/js/main.be4bf21b.js.map"
   },
   "entrypoints": [
     "static/css/main.2bc010e3.css",
-    "static/js/main.f87e903e.js"
+    "static/js/main.be4bf21b.js"
   ]
 }
