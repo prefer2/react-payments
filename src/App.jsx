@@ -15,7 +15,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CardInfoProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/react-payments">
           <Routes>
             <Route path={PATH.MAIN} element={<CardListPage />} />
             <Route path={PATH.ADD} element={<AddPage />} />
