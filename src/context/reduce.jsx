@@ -1,4 +1,4 @@
-import { initialCardInfo } from 'context/constant'
+import { initialCardInfo } from 'context/cardInfo-context'
 
 const reducer = (state, action) => {
   const { type, name, key, value } = action

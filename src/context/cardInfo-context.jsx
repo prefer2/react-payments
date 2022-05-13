@@ -1,10 +1,18 @@
 import React, { useEffect, useState, useReducer } from 'react'
 import reducer from 'context/reduce'
-import { initialCardInfo } from 'context/constant'
 
 import { CARD_NUMBER, DUE_DATE, CVC } from 'constant'
 
 const CardInfoContext = React.createContext()
+
+const initialCardInfo = {
+  company: '',
+  cardNumber: { first: '', second: '', third: '', fourth: '' },
+  dueDate: { month: '', year: '' },
+  owner: '',
+  cvc: '',
+  password: { first: '', second: '' },
+}
 
 const initialError = {
   cardNumber: { error: false, errorMessage: '' },
@@ -117,3 +125,4 @@ export function CardInfoProvider({ children }) {
 }
 
 export default CardInfoContext
+export { initialCardInfo }
